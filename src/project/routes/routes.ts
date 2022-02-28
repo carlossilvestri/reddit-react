@@ -3,10 +3,10 @@ import { Route } from '../shared/interfaces';
 
 export const routes: Route[] = [
     {
-        to: '/login',
-        path: 'login',
+        to: '/main',
+        path: 'main',
         Component: SearchComponent,
-        name: 'Login',
+        name: 'Main',
         showOnNavBar: false
     }
 ];
